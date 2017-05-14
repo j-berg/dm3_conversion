@@ -19,6 +19,7 @@
 
 #Alternatively to following the previous six steps, you can delete the lines of code in this script followed by "###", uncomment the code on line 45 and delete line 44. In the code you just uncommented, you would fill in the specifics for the file locations.
 
+#File names cannot have spaces, be sure to use underscores in place of spaces
 
 import sys
 import os
@@ -46,6 +47,3 @@ for subdir, dirs, files in os.walk(rootdir):
 
         else:
             pass
-
-        #place process_TEM.ijm in ImageJ directory
-        #file names cannot have spaces, be sure to use _ in place of spaces
